@@ -16,3 +16,66 @@
 .App-link {
   color: #61dafb;
 }
+
+
+.progressBar {
+  
+  margin-left: 5%;
+  position: relative;
+  content:none;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.progressBar {
+  width: 90%; 
+  height: 8px; 
+  background-color: lightgray;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.progressBar::before {
+  content: "";
+  display: block;
+  width: 33%; 
+  height: 8px; 
+  background-color: red;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.circle{
+  margin-left: 12%;
+  margin-right: 12%;
+  display: flex;
+  color: white;
+  border-radius: 10px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  background-color: red;
+}
+
+.unactive {
+  background-color: lightgray;
+  color: gray;
+}
+
+.activeText {
+  padding-top: 15px;
+  color: red;
+  font-weight:600;
+}
+
+.unactiveText {
+  padding-top: 15px;
+  color: lightgray;
+  font-weight:400;
+}
