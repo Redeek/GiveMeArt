@@ -10,15 +10,34 @@ export const Header = () => {
 
 
     return (
-        <Navbar bg="light" data-bs-theme="light">
-            <Container >
+        <Navbar 
+            bg="light" 
+            data-bs-theme="light"
+        >
+            <Container>
                 <Nav>
-                    <Nav.Link> <h2> <FiMenu/> </h2></Nav.Link>
+                    <Nav.Link> 
+                        <h2> 
+                            <FiMenu/> 
+                        </h2>
+                    </Nav.Link>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="#liked"> <h2> <FiHeart /></h2> </Nav.Link>
-                    <Nav.Link href="#cart"> <h2> <BsCart2 /> </h2>  </Nav.Link>
-                    <Nav.Link href="#person"> <h2> <BsPerson /> </h2> </Nav.Link>
+                    <Nav.Link href="#liked"> 
+                        <h2> 
+                            <FiHeart />
+                        </h2> 
+                    </Nav.Link>
+                    <Nav.Link href="#cart"> 
+                        <h2> 
+                            <BsCart2 /> 
+                        </h2>  
+                    </Nav.Link>
+                    <Nav.Link href="#person"> 
+                        <h2> 
+                            <BsPerson />
+                        </h2> 
+                    </Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

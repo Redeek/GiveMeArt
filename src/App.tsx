@@ -1,16 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Header} from './components/Header'
-import Logo from './components/Logo';
+import Baner from './components/Baner';
 import ProgressBar from './components/ProgressBar';
+import FormInput from './components/FormInput';
+import FormQuality from './components/FormQuality';
+import FormStyle from './components/FormStyle';
+import GetInspired from './components/GetInspired';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Logo />
+      <Baner />
       <ProgressBar />
+      <FormInput />
+      <FormQuality />
+      <FormStyle />
+      <GetInspired />
     </div>
   );
 }
